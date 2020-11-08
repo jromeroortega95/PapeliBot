@@ -18,3 +18,9 @@ class PapeliBot(commands.Bot):
     def add_custom_commands(self):
         self.add_command(cc.nine_nine)
         self.add_command(cc.roll)
+        self.add_command(cc.add_word)
+        self.add_command(cc.create_game)
+        self.add_command(cc.join)
+        self.add_command(cc.start_game)
+        self.add_command(cc.ready)
+     
